@@ -1,0 +1,3 @@
+curl -O https://raw.githubusercontent.com/jakevdp/data-USstates/master/state-population.csv
+curl -O https://raw.githubusercontent.com/jakevdp/data-USstates/master/state-areas.csv
+curl -O https://raw.githubusercontent.com/jakevdp/data-USstates/master/state-abbrevs.csv

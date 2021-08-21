@@ -1,0 +1,5 @@
+ERROR:
+ORA-12154: TNS:could not resolve the connect identifier specified 
+
+
+SP2-0751: Unable to connect to Oracle.  Exiting SQL*Plus

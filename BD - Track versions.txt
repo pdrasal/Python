@@ -1,0 +1,24 @@
+
+Development:
+------------
+
+1) BD_Dev1
+
+comando de OS Sqlplus 
+Pending: Password en archivo o manual, output to html
+
+2) BD_Dev2
+
+Usa cx_Oracle, pandas, tabulate, getpass. 
+Credenciales con getpass / Genera archivos csv y html / Summary formateado como tabla usando library tabulate
+
+Pending: Multiples SQL; Colors; Password en archivo o manual
+
++----+----------------+------------+------------+-------------------------------------------------------------------+
+|    | Server         | Database   | Result     | Message                                                           |
+|----+----------------+------------+------------+-------------------------------------------------------------------|
+|  0 | FEZK1POD       | x          | successful | -                                                                 |
+|  1 | patodb_tpurgen | x          | Failed     | ORA-12154: TNS:could not resolve the connect identifier specified |
++----+----------------+------------+------------+-------------------------------------------------------------------+
+
+
