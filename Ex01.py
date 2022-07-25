@@ -21,3 +21,16 @@ output='Hello, {0} {1} '.format(first_name,last_name)
 print(output)
 output=f'Hello, {first_name} {last_name}' 
 print(output)
+
+#numbers
+first_number= 6
+second_number= 2
+print (first_number+second_number-first_number)
+print (first_number**second_number) #exponent
+print (first_number/second_number*first_number)
+
+print (str(first_number) + ' is the first number') #to print convert 
+
+first_num=input('Enter the first number')
+second_num=input ('Enter the second number')
+print (int(first_num)+int(second_num)) #in this case had to convert to int the input as was a string
