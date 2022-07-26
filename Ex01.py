@@ -53,3 +53,14 @@ print ('Day :' + str(current_date.day))
 print ('Day :' + str(current_date.month))
 print ('Day :' + str(current_date.year))
 
+#input a date
+# When you ask a user for a date tell them the desired date format
+from datetime import datetime,timedelta
+birthday = input('When is your birthday (dd/mm/yyyy)? ')
+
+# When you convert the string containing the date into a date object
+# you must specify the expected date format
+# if the date is not in the expected format Python will raise an exception
+birthday_date = datetime.strptime(birthday, '%d/%m/%Y')
+
+print ('Birthday: ' + str(birthday_date))
